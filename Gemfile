@@ -7,6 +7,7 @@ gem 'bootstrap-sass', '~> 3.2.0'
 # Use sqlite3 as the database for Active Record
 # Use SCSS for stylesheetsap-sass'
 gem 'sass-rails', '~> 5.0'
+gem 'bcrypt'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
