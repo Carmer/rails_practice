@@ -6,4 +6,7 @@ class UsersControllerTest < ActionController::TestCase
     assert_response :success
   end
 
+  test "should redirect edit when not logged in" do
+    get :edit, id: @user
+
 end
