@@ -197,3 +197,13 @@ input {
     border-bottom: 1px solid #eaeaea;
   }
 }
+
+img {
+  float: center;
+  border: 2px solid #eaeaea;
+  border-radius: 7px;
+}
+
+img:hover {
+  box-shadow: 10px 0px 5px #888888;
+}
